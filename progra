@@ -3,7 +3,7 @@ using System;
 public class Program
 {
 	static int val = 3;
-	static string [,] numeros =new string[val,val];
+	static string [,] palabras =new string[val,val];
 	public static void Main()
 	{
 		
@@ -14,10 +14,11 @@ public class Program
 				 {
 				   
 				   
-				   Console.Write("Ingrese el valor:  ");
-				   numeros[y,x] =Console.ReadLine();
+				   Console.Write("Ingrese el valor: ");
+				   palabras[y,x] =Console.ReadLine();
 				   
-				   
+					
+			   
 			  
 				 }
 			}
@@ -27,7 +28,7 @@ public class Program
 			
 			for(int y=0; y<val; y++)
 				{
-				   Console.WriteLine("valor: " +numeros[y,x]);
+				   Console.WriteLine("valor: " +palabras[y,x]);
 				}
 	    }
 		
