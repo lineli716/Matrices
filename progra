@@ -1,0 +1,35 @@
+using System;
+					
+public class Program
+{
+	static int val = 3;
+	static string [,] numeros =new string[val,val];
+	public static void Main()
+	{
+		
+		
+	    for(int x=0; x<val; x++)
+			{
+			   for(int y=0; y<val; y++)
+				 {
+				   
+				   
+				   Console.Write("Ingrese el valor:  ");
+				   numeros[y,x] =Console.ReadLine();
+				   
+				   
+			  
+				 }
+			}
+		Console.WriteLine("\n----------\n");
+		for(int x=0; x<val; x++)
+		{
+			
+			for(int y=0; y<val; y++)
+				{
+				   Console.WriteLine("valor: " +numeros[y,x]);
+				}
+	    }
+		
+	}
+}
